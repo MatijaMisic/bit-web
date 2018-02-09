@@ -1,0 +1,32 @@
+.first{
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.second {
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    max-height: 200px;
+}
+
+.myBorder {
+    
+    background-color: yellow;
+    border: 5px solid green;
+}
+
+.myBorder.dashed{
+    border: 5px dashed red;
+}
+
+.mypPadding {
+    background-color: aqua;
+    padding-top: 50px;
+}
+.mypPadding.first{
+    padding:50px;
+}

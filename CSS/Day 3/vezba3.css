@@ -1,0 +1,67 @@
+@font-face{
+    font-family: IvanaFont;
+    src:url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2);
+}
+
+.a {
+    background-color: rgb(27, 104, 175);
+    color: rgb(180, 207, 28);
+    border: 5px red solid;
+    margin: 50px;
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+}
+.s {
+border:green solid;
+background: yellow;
+margin: 20px;
+width: 400px;
+display: inline-block;
+visibility: hidden;
+
+}
+.d {
+border: red dashed;
+background: rgb(13, 123, 187);
+margin-left: 100px;
+width:400px;
+display:inline-block;
+}
+
+.d:hover{
+    visibility: hidden;
+}
+.q {
+border: 5px dashed rgb(53, 94, 53);
+padding: 50px;
+}
+.w {
+padding: 20px;
+border: 20px dashed black;
+}
+
+.e {
+padding: 50px;
+border: 20px rgb(71, 24, 24) solid;
+}
+
+.title{
+    width:960px;
+    margin:0 auto 0 auto;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    background-color: rgb(122, 42, 122);
+    color:rgb(51, 38, 124);
+    -webkit-box-shadow: 4px -1px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px -1px 49px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px -1px 49px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    
+}
+
+.title h1{
+    font-family: "Dancing Script";
+}
