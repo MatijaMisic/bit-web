@@ -1,0 +1,22 @@
+.prva{
+    list-style-type: circle;
+}
+.druga{
+    list-style-type: square;
+}
+.treca{
+    list-style-type: upper-alpha;
+}
+.cetvrta{
+    list-style-type: upper-roman;
+}
+.marker{
+    list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif);
+    width:200px;
+    
+}
+#nesto{
+    list-style-position: inside;
+    list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif);
+    width:200px;
+}

@@ -1,0 +1,46 @@
+form {
+    width: 300px;
+    background-color: rgb(223, 212, 212);
+    padding: 20px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+span {
+    width: 200px;
+    padding: 10px;
+   
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+
+}
+input[type=submit] {
+    background-color: rgb(204, 42, 42);
+    text-align: center;
+    width: 100%;
+    color: azure;
+}
+
+hr {
+    color: black;
+}
+#zuta {
+    width: 0px;
+    padding: 0px;
+    color: rgb(245, 179, 38);
+
+}
+ :hover {
+     cursor: pointer;
+ }
+
+
+
+ 
