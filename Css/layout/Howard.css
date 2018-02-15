@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+
+}
+header>img {
+    width:20%; 
+    float: left;
+}
+
+.head {
+    float: left;
+    margin-left: 1%;
+
+
+
+}
+h1 {
+    margin-bottom: 0;
+}
+header>.head>p {
+    margin-top: 0;
+}
+
+.left {
+    float:left;
+
+    clear: both;
+    width: 50%;
+    text-align: justify;
+
+
+}
+.right {
+    float:right;
+    width: 50%;
+    border-left: black solid 2px;
+    padding-left: 10px;
+    text-align: justify;
+ 
+}
+
+main {
+    width: 100%;
+    background-image: url(http://creativity103.com/collections/Paper/rustic_paper.jpg);
+    overflow: auto;
+
+}

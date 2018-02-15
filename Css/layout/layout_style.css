@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav > li {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    font-size: 110%;
+   
+}
+
+nav {
+    background-color: rgb(202, 77, 77);
+    width: 960px;
+    overflow: auto;
+    margin-right: 50px;
+    margin: 0px auto;
+}
+
+.nav {
+    float: right;
+    margin-right: 10px;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+.main_img {
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+}
+
+aside {
+    background-color: goldenrod;
+    float: right;
+    padding: 20px 10px;
+    margin-top: 5px;
+}
+
+.ulist_ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ulist_ > li {
+    border-bottom: 1px solid black;
+    line-height: 2;
+}
+
+article {
+    width: 300px;
+    float: left;
+    /* margin-right: 20px; */
+    margin: 10px;
+    
+}
+
+.special {
+    clear: left;
+}
+
+.footer {
+    clear: both;
+    background-color: #2D3E50;
+    color: white;
+    width: 75%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.footer > p {
+    margin-left: 230px;
+}
+
+.slika1{
+    float: left;
+    width: 50%;
+    transition: transform 2s;
+}
+
+.slika2{
+    float: left;
+    width: 50%;
+    transition: transform 2s;
+}
+
+.igramoSe{
+    position: relative;
+}
+
+.igramoSe > div > img {
+    display: block;
+    width: 100%;
+}
+
+.igramoSe:hover > .slika1 {
+    position: relative;
+    /* left: -300px; */
+   transform: translateX(-300px);
+   
+}
+
+.igramoSe:hover > .slika2{
+position: relative;
+/* right: -300px; */
+transform: translateX(300px);
+
+}
+
+.igramoSe:hover > .js {
+    opacity: 1;
+   
+}
+
+.js{
+    display: block;
+    position:absolute;
+    opacity: 0;
+    top:70px;
+    left:270px;
+    transition: opacity .5s 1s;
+    z-index: -1;
+    
+}
