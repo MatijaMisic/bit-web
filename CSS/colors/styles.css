@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    background: #e1e8ec;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background-color:rgba(0,0,255,0.4);
+  
+}
+
+h2 {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: left;
+    background: #2979ff;
+    color: rgb(193, 241, 223);
+}
+
+img {
+    height: 400px;
+    margin: 40px auto 40px;
+    display: block;
+  
+}
+table {
+    width: 100%;
+    color: #333;
+    background-color:rgba(246,0,0,.1);
+        border-collapse: collapse;
+}
+
+
+tr {
+    border-bottom: 1px solid #eee;
+}
+
+td {
+    padding: 5px 0;
+}
+
+td:first-child {
+    width: 300px;
+    padding-left: 10px;
+}
+
+p#footer {
+    margin-top: 100px;
+}
+
+
+p span {
+    background-color: lime
+}
+
+#changeColor {
+    color: bisque ;
+    background-color: #2962ff
+}
+
+div {
+    
+    background-color:rgba(0,255,0,0.1);
+}
+
