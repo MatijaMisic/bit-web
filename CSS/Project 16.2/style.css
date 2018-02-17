@@ -243,3 +243,7 @@ form button{
     color:white;
     font-size: 0.9rem;
 }
+
+@media(min-width:768px){
+    
+}
