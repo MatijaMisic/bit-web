@@ -389,6 +389,7 @@ form button {
         width: 25%;
         float: left;
         margin: 0;
+        margin-top: 1.5%;
     }
     section.bottom-section {
         display: block;
@@ -396,12 +397,74 @@ form button {
         margin-left: 2%;
         margin-bottom: 15%;
     }
-
     h2 {
         margin: 0% 0 3% 0;
     }
-
     nav {
         margin-bottom: 5%;
+    }
+    .twitter {
+        margin: 1%;
+        width: 30%;
+        padding: 1%;
+    }
+
+    .twitter-name {
+        padding-top: 5%;
+    }
+
+    .twitter content p {
+        margin-top: 4%;
+        margin-bottom: 0%;
+    }
+    
+    .top, .middle, .address, .house {
+        margin: 0%;
+        width: 25%;
+    }
+
+    .house img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .top {
+        padding: 3%;
+    }
+
+    .middle {
+        padding: 3% 0;
+    }
+
+    .address {
+        padding: 2% 1%;
+    }
+
+    input {
+        width: 30%;
+    }
+
+    form button {
+        width: 8%;
+        border-radius: 0;
+        font-size: 1.1rem;
+        padding: 1% 0;
+    }
+
+    .footer-nav {
+        margin-top: 5%;
+        margin-left: 0%;
+        padding: 0;
+    }
+    .footer-nav ul{
+        margin: 3% 0;
+    }
+
+    .footer-nav p {
+        margin-bottom: 3%;
+    }
+
+    .mail-us {
+        margin-top: 5%;
     }
 }
