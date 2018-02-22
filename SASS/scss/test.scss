@@ -1,0 +1,21 @@
+@import "main";
+
+body {
+    p {
+        border: 1px solid blue;
+        width: 100%;
+        padding: 2%;
+        
+        &:first-child {
+            @extend p;
+            border-color: red;
+            width:100% - 30%;
+        }
+
+        &:last-child{
+            @extend p;
+            border-color: green;
+            width:100% - 50%;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@mixin text-shadow($angle, $distance, $blur, $color) {
+    text-shadow: $angle $distance $blur $color;
+}
+
+@mixin box-shadow($hr, $vr, $br, $sr, $col) {
+    -webkit-box-shadow: $hr $vr $br $sr $col;
+    -moz-box-shadow: $hr $vr $br $sr $col;
+    box-shadow: $hr $vr $br $sr $col;
+}
+

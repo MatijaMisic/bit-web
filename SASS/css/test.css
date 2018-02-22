@@ -1,0 +1,12 @@
+body p, body p:first-child, body p:last-child {
+  border: 1px solid blue;
+  width: 100%;
+  padding: 2%; }
+  body p:first-child {
+    border-color: red;
+    width: 70%; }
+  body p:last-child {
+    border-color: green;
+    width: 50%; }
+
+/*# sourceMappingURL=test.css.map */
