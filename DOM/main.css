@@ -1,0 +1,7 @@
+.mojaKlasa {
+    background-color: #ccc;
+}
+
+.aktivni:active {
+    background-color: pink;
+}
