@@ -22,6 +22,9 @@
 
 .copyright {
   font-size: .8rem; }
+  @media (min-width: 768px) {
+    .copyright {
+      margin-top: 10%; } }
 
 .copyright span {
   color: grey; }
@@ -63,10 +66,27 @@
   background-color: #18bc9c;
   border-color: #18bc9c; }
 
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white; }
+
+.navbar-light .navbar-toggler:hover {
+  color: white; }
+
+button:focus {
+  outline-color: white; }
+
 .white img {
   width: 80%;
   display: block;
   margin: 3% auto 0 auto; }
+  @media (min-width: 768px) {
+    .white img {
+      width: 95%;
+      display: block;
+      margin: 8% auto 0 auto; } }
 
 .white h2 {
   text-align: center;
@@ -78,6 +98,10 @@
 .green.down {
   margin-top: 5%;
   padding: 5% 0; }
+  @media (min-width: 768px) {
+    .green.down {
+      margin-top: 3%;
+      padding: 3% 0; } }
 
 .green h2 {
   text-align: center;
@@ -90,6 +114,9 @@
 
 .green.down .textbox {
   text-align: left; }
+  @media (min-width: 768px) {
+    .green.down .textbox {
+      font-size: 1.4rem; } }
 
 .findout {
   border: 1px solid white;
@@ -98,5 +125,8 @@
 
 .margina {
   margin-bottom: 5%; }
+  @media (min-width: 768px) {
+    .margina {
+      margin-top: 5%; } }
 
 /*# sourceMappingURL=main.css.map */
