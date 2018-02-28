@@ -1,0 +1,39 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.green {
+    background-color: $greenish;
+}
+
+.darkblue{
+    background-color: $blueish;
+    color:white;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.darkblue h3 {
+    margin: 10% 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 1em;
+}
+
+.copyright {
+    font-size:.8rem;
+    @media (min-width: 768px){
+        margin-top: 10%;
+    }
+}
+
+.copyright span{
+    color:grey;
+}

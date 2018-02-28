@@ -1,0 +1,62 @@
+@import "variables";
+
+.white img{
+    width:80%;
+    display: block;
+    margin:3% auto 0 auto;
+    @media (min-width: 768px){  
+            width: 95%;
+            display: block;
+            margin: 8% auto 0 auto;  
+    }
+}
+
+.white h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.white p{
+    text-align: center;
+}
+
+.green.down {
+    margin-top: 5%;
+    padding: 5% 0;
+    @media (min-width: 768px){
+        margin-top: 3%;
+        padding: 3% 0;
+    }
+}
+
+.green h2{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.green p{
+    text-align: center;
+    color: white;
+}
+
+.green.down .textbox{
+    text-align: left;
+    @media (min-width: 768px){
+        font-size: 1.4rem;
+    }
+}
+
+.findout{
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+   
+}
+
+.margina {
+    margin-bottom: 5%;
+    @media (min-width: 768px){
+        margin-top: 5%;
+    }
+}
