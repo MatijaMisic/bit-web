@@ -1,0 +1,39 @@
+* {
+    background: #ccc;
+}
+
+div {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ourDiv {
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding-top:10px;
+    overflow: hidden;
+}
+
+input {
+    width: 400px;
+    background-color: #fff;
+}
+
+button {
+    width: 190px;
+    background-color: red;
+    color: white
+}
+
+p {
+    display: block;
+    width: 50px;
+    padding: 5px;
+    background-color: #ccc;
+    color: white;
+    margin: 10px 10px;
+}
+
