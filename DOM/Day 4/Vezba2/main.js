@@ -4,6 +4,9 @@ var input = document.querySelector("input");
 var button = document.querySelector("button");
 
 button.onclick = function (){
+    if(input.value === ""){
+        return;
+    }
     var p = document.createElement("p");
     var pText = document.createTextNode(input.value);
     p.appendChild(pText);
@@ -11,3 +14,4 @@ button.onclick = function (){
     input.value = "";
 }
 
+ 

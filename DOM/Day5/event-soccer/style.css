@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url("field.png");
+    background-size: cover;
+    padding: 0;
+}
+
+.player {
+    position: absolute;
+    height: 100px;
+    top:0;
+    left:0;
+
+}
+
+.btn {
+    padding: 20px;
+    background: red;
+    color: #fff;
+    display: block;
+    margin: 5% auto 0 auto;
+    width: 50px;
+}
